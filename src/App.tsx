@@ -69,7 +69,7 @@ const PRODUCTS: Product[] = [
     price: "20K",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/assets/dessert/milk.jpg",
+    image: "dist/assets/dessert/milk.jpg",
     tags: ["dessert"],
     badge: "",
   },
@@ -79,7 +79,7 @@ const PRODUCTS: Product[] = [
     price: "35K",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/assets/snack/wrap.jpg",
+    image: "dist/assets/snack/wrap.jpg",
     tags: ["snack"],
     badge: "",
   },
@@ -89,7 +89,7 @@ const PRODUCTS: Product[] = [
     price: "35K",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/assets/ricebox/ricebox.jpg",
+    image: "dist/assets/ricebox/ricebox.jpg",
     tags: ["ricebox"],
     badge: "",
   },
@@ -98,7 +98,7 @@ const PRODUCTS: Product[] = [
     price: "35K",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/assets/ricebox/ricebox.jpg",
+    image: "dist/assets/ricebox/ricebox.jpg",
     tags: ["ricebox"],
     badge: "",
   },
@@ -107,7 +107,7 @@ const PRODUCTS: Product[] = [
     price: "35K",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/assets/ricebox/ricebox.jpg",
+    image: "dist/assets/ricebox/ricebox.jpg",
     tags: ["ricebox"],
     badge: "",
   },
@@ -116,7 +116,7 @@ const PRODUCTS: Product[] = [
     price: "35K",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/assets/ricebox/ricebox.jpg",
+    image: "dist/assets/ricebox/ricebox.jpg",
     tags: ["ricebox"],
     badge: "",
   },
@@ -126,7 +126,7 @@ const PRODUCTS: Product[] = [
     price: "35K",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/assets/salad/small.jpg",
+    image: "dist/assets/salad/small.jpg",
     tags: ["saladbuah"],
     badge: "",
   },
@@ -135,7 +135,7 @@ const PRODUCTS: Product[] = [
     price: "35K",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/assets/salad/medium.jpg",
+    image: "dist/assets/salad/medium.jpg",
     tags: ["saladbuah"],
     badge: "",
   },
@@ -144,7 +144,7 @@ const PRODUCTS: Product[] = [
     price: "35K",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/assets/salad/jumbo.jpg",
+    image: "dist/assets/salad/jumbo.jpg",
     tags: ["saladbuah"],
     badge: "Discount 10%",
   },
@@ -266,7 +266,7 @@ function App() {
       >
         <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
           <div className="flex items-center space-x-2">
-            <img className="w-14" src="/logo.png" alt="logo" />
+            <img className="w-14" src="dist/logo.png" alt="logo" />
           </div>
           <div className="flex items-center space-x-6">
             <button
@@ -307,7 +307,7 @@ function App() {
       <section id="home" className="relative overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="salad.jpg"
+            src="dist/salad.jpg"
             alt="Salad"
             className="w-full h-full object-cover brightness-50"
           />
