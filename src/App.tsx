@@ -33,7 +33,7 @@ const PRODUCTS: Product[] = [
     price: "10K",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/assets/dessert/sopbuah.jpg",
+    image: "dist/assets/dessert/sopbuah.jpg",
     tags: ["dessert"],
     badge: "",
   },
@@ -42,7 +42,7 @@ const PRODUCTS: Product[] = [
     price: "10K",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/assets/dessert/cendol.jpg",
+    image: "dist/assets/dessert/cendol.jpg",
     tags: ["dessert"],
     badge: "",
   },
@@ -51,7 +51,7 @@ const PRODUCTS: Product[] = [
     price: "15K",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/assets/dessert/avosago.jpg",
+    image: "dist/assets/dessert/avosago.jpg",
     tags: ["dessert"],
     badge: "",
   },
@@ -60,7 +60,7 @@ const PRODUCTS: Product[] = [
     price: "15K",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/assets/dessert/mango.jpg",
+    image: "dist/assets/dessert/mango.jpg",
     tags: ["dessert"],
     badge: "",
   },
