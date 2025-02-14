@@ -266,7 +266,7 @@ function App() {
       >
         <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
           <div className="flex items-center space-x-2">
-            <img className="w-14" src="dist/logo.png" alt="logo" />
+            <img className="w-14" src="logo.png" alt="logo" />
           </div>
           <div className="flex items-center space-x-6">
             <button
@@ -307,7 +307,7 @@ function App() {
       <section id="home" className="relative overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="dist/salad.jpg"
+            src="salad.jpg"
             alt="Salad"
             className="w-full h-full object-cover brightness-50"
           />
